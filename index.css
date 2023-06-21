@@ -31,10 +31,6 @@ nav img {
 
 /* HERO */
 
-/* .hero {
-    padding: 0 1rem;
-} */
-
 .hero img {
     width: 80%;
     margin: 0 auto 2rem;
@@ -49,4 +45,28 @@ h1 {
 .hero p {
     max-width: 320px;
     margin: 0;
+}
+
+/* CARD */
+
+.card {
+    max-width: 175px;
+}
+
+.experience-pic {
+    width: 100%;
+}
+
+.card p {
+    font-size: .75rem;
+    margin: .25rem 0;
+}
+
+.star {
+    width: .7rem;
+    margin-right: .25rem;
+}
+
+.gray-text {
+    color: gray;
 }
