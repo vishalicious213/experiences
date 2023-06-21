@@ -55,6 +55,7 @@ h1 {
 
 .experience-pic {
     width: 100%;
+    border-radius: .75rem;
 }
 
 .card p {
