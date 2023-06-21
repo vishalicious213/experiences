@@ -25,6 +25,10 @@ nav {
     margin-bottom: 1.75rem;
 }
 
+nav img {
+    width: 5rem;
+}
+
 /* HERO */
 
 /* .hero {
