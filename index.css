@@ -56,6 +56,7 @@ h1 {
 
 .card {
     max-width: 175px;
+    flex: 0 0 auto;
 }
 
 .experience-pic {
@@ -75,4 +76,13 @@ h1 {
 
 .gray-text {
     color: gray;
+}
+
+/* EXPERIENCES */
+
+.experiences {
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+    height: 100%;
 }

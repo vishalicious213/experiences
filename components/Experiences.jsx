@@ -17,7 +17,7 @@ export default function Experiences() {
     })
 
     return (
-        <div>
+        <div className="experiences">
             {elements}
         </div>
         
