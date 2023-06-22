@@ -1,6 +1,6 @@
 import star from "/star.png"
 
-export default function Card({img, rating, reviewCount, location, title, price}) {
+export default function Card({img, rating, reviewCount, location, title, price, openSpots}) {
     return (
         <div className="card">
             <img className="experience-pic" src={img} />
