@@ -8,7 +8,7 @@ export default function Experiences() {
             rating="5.0"
             reviewCount={6}
             country="USA"
-            title="Life Lessons with Katie Zaferes"
+            title="Life lessons with Katie Zaferes"
             price={136}
         />
     )
