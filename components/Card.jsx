@@ -3,7 +3,7 @@ import star from "/star.png"
 export default function Card({img, rating, reviewCount, location, title, price, openSpots}) {
     return (
         <div className="card">
-            <div className="badge">SOLD OUT</div>
+            {openSpots === 0 && <div className="badge">SOLD OUT</div>}
             <img className="experience-pic" src={img} />
             <p><img className="star" src={star}/>{rating} <span className="gray-text">({reviewCount}) • {location}</span></p>
             <p>{title}</p>
