@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
-import Card from "./components/Card"
+import Experiences from "./components/Experiences"
 
 export default function App() {
     return (
         <>
             <Navbar />
             <Hero />
-            <Card />
+            <Experiences />
         </>
     )
 }
