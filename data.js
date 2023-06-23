@@ -37,5 +37,18 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Learn to Eat Fire",
+        description: "Cat will take you through the theory and safety precautions behind fire eating and body burning. We'll then actually light up the torches and explore this performance art fully with hand transfers, tongue transfers and of course, extinguishing the flame with your mouth.",
+        price: 65,
+        coverImg: "eat-fire.jpg",
+        stats: {
+            rating: 5.0,
+            reviewCount: 177
+        },
+        location: "North Hollywood",
+        openSpots: 3,
     }
 ]
