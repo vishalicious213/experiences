@@ -26,6 +26,19 @@ export default [
         openSpots: 3,
     },
     {
+        id: 6,
+        title: "Run with the pack",
+        description: "Tap into your wild side as you spend time with wolfdogs and learn the powerful lessons they have to teach in this intimate group experience!",
+        price: 225,
+        coverImg: "wolves.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 445
+        },
+        location: "Palmdale",
+        openSpots: 0,
+    },
+    {
         id: 2,
         title: "Life lessons with Katie Zaferes",
         description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
