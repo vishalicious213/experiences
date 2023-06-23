@@ -11,7 +11,7 @@ export default function Card({img, rating, reviewCount, location, title, price, 
     return (
         <div className="card">
             {badgeText && <div className="badge">{badgeText}</div>}
-            <img className="experience-pic" src={img} />
+            <img className="experience-pic" src={`/xp/${img}`} />
             <p><img className="star" src={star}/>{rating} <span className="gray-text">({reviewCount}) • {location}</span></p>
             <p>{title}</p>
             <p><b>From ${price}</b> / person</p>
