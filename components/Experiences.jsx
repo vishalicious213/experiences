@@ -18,7 +18,7 @@ export default function Experiences() {
     })
 
     return (
-        <div className="experiences">
+        <div className="experiences container">
             {elements}
         </div>
         
